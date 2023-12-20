@@ -1,0 +1,76 @@
+.functional{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 10px;
+  width: 600px;
+}
+button.numbers.c {
+  width: 48%;
+}
+
+button.numbers.d {
+  width: 48%;
+}
+
+
+button.plus{
+  margin-left: 37px;
+  margin-bottom: 6px;
+
+}
+
+button.delete:hover {
+  background-color: green;
+}
+
+h2{
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.header {
+  grid-column: span 4;
+  margin-top: 2vh;
+}
+
+.numbers {
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.cont {
+  text-align: center;
+  margin: 20px auto;
+  border: 2px solid #333;
+  padding: 20px;
+  width: fit-content;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+button {
+  font-size: 2.5vh;
+  background-color: #6f4444;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+
